@@ -1,0 +1,19 @@
+{
+    "name": "mini-framework/mvc",
+    "description": "description",
+    "require": {
+        "php": ">= 7.0"
+    },
+    "authors": [
+        {
+            "name": "Julio Motta",
+            "email": "juliomtta@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/",
+            "MF\\": "vendor/MF/"
+        }
+    }
+}

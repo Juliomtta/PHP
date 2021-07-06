@@ -1,0 +1,92 @@
+/* --------- Fontes -----------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
+
+h2{
+    font-family: Roboto Mono;
+    margin-left: 10px;
+}
+
+h2 a{
+    text-decoration: none;
+
+}
+
+.nav_menu{
+    width: 500px;
+    height: 400px;
+    margin: 100px auto;
+    
+    border-radius: 8px;
+    position: relative;
+    
+}
+
+.nav_menu ul{
+    list-style: none;
+    
+    
+}
+.nav_menu ul li{
+    float: left;
+    
+    
+}
+.nav_menu label{
+    width: 100px;
+    padding: 10px;
+    background-color: #FFF;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    font-weight: bold;
+    
+    
+}
+
+.r_menu{
+    display: none;
+}
+
+
+.r_menu:checked ~ label{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #FFF;
+    border-bottom: none;
+    
+}
+
+.conteudo{
+    display: none;
+    position: absolute;
+    left: 0;	
+    margin-left: 32px;
+    width: 400px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+
+}
+
+.r_menu:checked ~ .conteudo{
+    display:block;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.conteudo-cadastrar{
+    border-top-left-radius: 8px;
+}
+
+/*------------------- Formularios -----------*/
+.form-entrar input, .form-cadastrar input{
+    margin: 20px 10px 0px 10px;
+    width: 380px;
+}
+
+.form-entrar button, .form-cadastrar button{
+    margin: 10px;
+}
+
+
+

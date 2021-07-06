@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta  charset="UTF-8">
+        <title>Minha Biblioteca</title>
+        
+        
+
+    </head>
+    
+        <nav class="navbar navbar-light bg-dark">
+            <h2><a href="#" class=" navbar-brand text-light">Minha Biblioteca</a></h2>
+        </nav>
+
+        <section class="container">
+            <article>
+               <nav class="nav_menu">
+                   <ul>
+                        <li>
+                           <input type="radio" class="r_menu" name="menu" id="menu1" checked="">
+                           <label for="menu1">Entrar</label>
+                           <div class="conteudo entrar">
+                                <form method="POST" class="form-entrar">
+                                    <input type="text" name="login" placeholder="Login" class="form-control">
+                                    <input type="password" name="password" placeholder="Senha" class="form-control">
+                                    <button type="button" class="btn btn-dark">Entrar</button>
+                                </form>
+                               
+                           </div>
+                        </li>
+
+                        <li>
+                            <input type="radio" class="r_menu" name="menu" id="menu2">
+                            <label for="menu2">Cadastrar</label>
+                            <div class="conteudo conteudo-cadastrar">
+                                <form class="form-cadastrar" method="POST">
+                                    <input type="text" name="nome" placeholder="Nome" class="form-control">
+                                    <input type="text" name="email" placeholder="E-mail" class="form-control">
+                                    <input type="password" name="senha" placeholder="Senha" class="form-control">
+                                    <input type="password" name="confirmar" placeholder="Confirmar senha" class="form-control">
+                                    <button class="btn btn-dark">Cadastrar</button>
+                                </form>
+                            </div>
+                        </li>
+
+                   </ul>
+               </nav>
+            </article>
+
+        </section>
+    
+</body></html>
